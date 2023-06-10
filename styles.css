@@ -8,64 +8,113 @@ body {
   box-sizing: border-box;
 }
 .navbar {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center;
 }
 .navbar h2 {
   color: hsl(233, 13%, 49%);
 }
 .togglebar {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 12rem;
-  margin-left: 32rem;
+  margin-left: 32.5rem;
+}
+.togglebar p {
+  color: hsl(234, 14%, 74%);
+  font-weight: 500;
 }
 .tog {
   height: 3rem;
 }
 .content {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* width: 50rem; */
+  height: 38rem;
   align-items: center;
-  margin-left: 10rem;
+  margin-top: -1rem;
 }
 .card {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   font-size: 25px;
   font-weight: 500;
-  height: 25rem;
+  height: 32rem;
   width: 30rem;
   text-align: center;
   cursor: pointer;
-  color: hsl(233, 13%, 49%);
+  border-radius: 5px;
+  background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: white;
 }
 .card:hover {
-  color: white;
-  background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-  transition: 0.5;
-  transform: scale(1);
+  transform: scale(1.1);
+}
+.card2 {
+  /* border: 1px solid blue; */
+  font-size: 25px;
+  font-weight: 500;
+  height: 32rem;
+  width: 30rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background: white;
+  color: hsl(232, 13%, 33%);
+}
+.card2:hover {
+  transform: scale(1.1);
 }
 .card button {
   width: 15rem;
-  height: 2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 5px;
+  color: hsl(236, 72%, 79%);
+  cursor: pointer;
+  background-color: white;
+}
+.card button:hover {
+  color: white;
+  background-color: hsl(236, 72%, 79%);
+}
+.card2 button {
+  width: 15rem;
+  height: 2.5rem;
   border: none;
   border-radius: 5px;
   color: white;
   cursor: pointer;
   background: linear-gradient(45deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 }
-.card button:hover {
+.card2 button:hover {
   background-color: white;
   color: hsl(236, 72%, 79%);
 }
+.head {
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  height: 5rem;
+  width: 16rem;
+  margin-left: 1.5rem;
+}
+.para {
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  height: 3rem;
+  width: 16rem;
+  margin-left: 1.5rem;
+}
 .top {
+  /* border: 1px solid black; */
   height: 15rem;
+  margin-top: -4rem;
+  /* margin-right: 3rem; */
 }
 .bot {
+  /* border: 1px solid black; */
   height: 9rem;
+  margin-bottom: -10rem;
+  margin-right: -3rem;
 }

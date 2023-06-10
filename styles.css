@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(240, 78%, 98%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.section {
+  box-sizing: border-box;
+}
+.navbar {
+  border: 1px solid black;
+  text-align: center;
+}
+.navbar h2 {
+  color: hsl(233, 13%, 49%);
+}
+.togglebar {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 12rem;
+  margin-left: 32rem;
+}
+.tog {
+  height: 3rem;
+}
+.content {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50rem;
+  align-items: center;
+  margin-left: 10rem;
+}
+.card {
+  border: 1px solid blue;
+}
+.top {
+  height: 15rem;
+}
+.bot {
+  height: 9rem;
+}
